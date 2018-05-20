@@ -61,7 +61,7 @@ Once Samba has restarted, use this command to check your smb.conf for any syntax
 
 $ testparm
       
-To access your network share 
+To access your network share: 
 
       $ sudo apt-get install smbclient
       
@@ -76,32 +76,31 @@ To access your network share
 # Access 
 linux:
 
-`
-smb://<HOST_IP_OR_NAME>/<folder_name>/
+ smb://<HOST_IP_OR_NAME>/<folder_name>/
 
-or 
+     or 
 
-\\<HOST_IP_OR_NAME>\<folder_name>\ 
-`
+  \\<HOST_IP_OR_NAME>\<folder_name>\ 
+
 
 Windows:
 
 ` 
-map network drive
+   map network drive
 
-add new drive
+   add new drive
 
-smb://<HOST_IP_OR_NAME>/<folder_name>/
+   smb://<HOST_IP_OR_NAME>/<folder_name>/
 
-default: Workgroup
+   default: Workgroup
 `
 
 Mac:
 
 `
-navigate to "go"
+    navigate to "go"
 
-connect to server
+    connect to server
 
-$ smb://<HOST_IP_OR_NAME>/<folder_name>/
+    $ smb://<HOST_IP_OR_NAME>/<folder_name>/
 `
