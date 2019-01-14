@@ -1,4 +1,4 @@
-#Samba Server Instructions
+# Samba Server Instructions
 
 Install Samba:
 
@@ -23,11 +23,9 @@ If you're using another user than your own, it needs to exist in your system bef
 
     $ sudo useradd USERNAME --shell /bin/false
 
-You can also hide the user on the login screen by adjusting lightdm's configuration, in /etc/lightdm/users.conf add the newly 
+You can also hide the user on the login screen by adjusting lightdm's configuration, in /etc/lightdm/users.conf add the newly created user to the line:
 
-created user to the line:
-
-hidden-users=
+    $ hidden-users=
 
 Create a directory to be shared 
 
