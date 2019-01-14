@@ -1,5 +1,11 @@
 # Samba Server Instructions
 
+# Whois
+
+    Samba is a file service that uses the SMB protocal to share files between devices via LAN or WAN. This repo only contains this readme which will show you how to setup the server on linux / mac / windows devices. This is mainly just an installation guide, the usage of this service are really endless and it can be configured a number of ways. 
+    
+    Note: For use outside your LAN, you will have to forward ports on your router
+
 Install Samba:
 
     $ sudo apt-get update
